@@ -55,3 +55,36 @@ body{
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+
+@keyframes jobb{
+    0% {left: 0px;}
+    100% {left: 200px;}
+}
+
+.jobb{
+    animation-name: jobb;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fel{
+    0% {top: 0px;}
+    100% {top: -200px;}
+}
+
+.fel{
+    animation-name: fel;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes le{
+    0% {top: 0px;}
+    100% {top: 200px;}
+}
+
+.le{
+    animation-name: le;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}

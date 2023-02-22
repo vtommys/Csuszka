@@ -38,5 +38,16 @@ function csuszik(){
         this.classList.add('bal');
         mozog=true;
     }
-    if(mozog) setTimeout(function(){},1000)
+    if((this.nextElementSibling) && (this.nextElementSibling.classList[1]=="ures")){
+        this.classList.add('jobb');
+        mozog=true;
+    }
+    if(mozog) setTimeout(function(c){
+        document.getElementsByClassName('ures')[0].innerHTML=c.innerHTML;
+        document.getElementsByClassName('ures')[0].classList.remove('ures');
+        c.classList.add('ures');
+        c.classList.remove('jobb');
+        c.classList.remove('bal');
+        c.innerHTML='';
+    },1000,this)
 };
