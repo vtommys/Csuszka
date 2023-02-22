@@ -39,6 +39,7 @@ body{
     font-size: 5rem;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
 .ures{
@@ -52,7 +53,7 @@ body{
 
 .bal{
     animation-name: bal;
-    animation-duration: 1s;
+    animation-duration: 800ms;
     animation-fill-mode: forwards;
 }
 
@@ -63,7 +64,7 @@ body{
 
 .jobb{
     animation-name: jobb;
-    animation-duration: 1s;
+    animation-duration: 800ms;
     animation-fill-mode: forwards;
 }
 
@@ -74,7 +75,7 @@ body{
 
 .fel{
     animation-name: fel;
-    animation-duration: 1s;
+    animation-duration: 800ms;
     animation-fill-mode: forwards;
 }
 
@@ -85,6 +86,10 @@ body{
 
 .le{
     animation-name: le;
-    animation-duration: 1s;
+    animation-duration: 800ms;
     animation-fill-mode: forwards;
+}
+
+.jo{
+    color: green;
 }
